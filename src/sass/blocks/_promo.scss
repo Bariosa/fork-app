@@ -10,6 +10,7 @@
   }
   &__descr {
     margin-top: 20px;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -44,11 +45,47 @@
 @media (min-width: 481px) {
   .promo {
     background-image: url("../img/bg-promo-768.jpg");
+    h1 {
+      font-weight: 700;
+      font-size: 72px;
+    }
+    &__descr {
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    &__download {
+      margin-top: 470px;
+    }
+  }
+
+  .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    &__subtitle {
+      margin-top: 15px;
+    }
   }
 }
 
 @media (min-width: 993px) {
   .promo {
     background-image: url("../img/bg-promo-1200.jpg");
+    h1 {
+      font-size: 82px;
+    }
+    &__descr {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      line-height: 16px;
+    }
   }
 }
