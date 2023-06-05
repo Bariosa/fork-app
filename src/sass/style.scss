@@ -1,0 +1,24 @@
+@import "base/reseter";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@import "base/variables";
+@import "base/mixins";
+
+html,
+a {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 0 10px;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+@import "blocks/_header";
+@import "blocks/_buttons";
+@import "blocks/_title";
+@import "blocks/_promo";
+@import "blocks/_editor";

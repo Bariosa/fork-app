@@ -1,0 +1,56 @@
+.editor {
+  &__title {
+    margin-top: 120px;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #635c73;
+  }
+  &__descr {
+    margin-top: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #323232;
+  }
+
+  &__list {
+    margin-top: 40px;
+  }
+}
+.github {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 10px;
+  &__btn {
+    padding: 0;
+
+    border: none;
+    background: none;
+    display: flex;
+
+    border: solid 1px #d8d8e1;
+    border-radius: 3px;
+
+    span {
+      display: block;
+      padding: 5px 10px;
+      font-weight: 700;
+    }
+  }
+  &__title {
+    background: #d8d8e1;
+    font-size: 16px;
+  }
+
+  &__counter {
+    font-size: 14px;
+  }
+}
